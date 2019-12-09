@@ -4,7 +4,6 @@ def modelQuantDownloadUrl = "http://download.tensorflow.org/models/mobilenet_v1_
 def localCacheFloat = "build/intermediates/mobilenet_v1_1.0_224.tgz"
 def localCacheQuant = "build/intermediates/mobilenet_v1_1.0_224_quant.tgz"
 
-
 task downloadModelFloat(type: DownloadUrlTask) {
     doFirst {
         println "Downloading ${modelFloatDownloadUrl}"
