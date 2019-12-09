@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@android:color/black"
-            tools:context="org.tensorflow.lite.examples.classification.CameraActivity" >
+            tools:context="rw.enexus.genie.talk.classification.CameraActivity" >
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
